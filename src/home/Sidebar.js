@@ -15,6 +15,7 @@ const useStyles = makeStyles(theme => ({
 	sidebarSection: {
 		marginTop: theme.spacing(3),
 	},
+	
 }));
 
 export default function Sidebar(props) {
@@ -31,7 +32,15 @@ export default function Sidebar(props) {
 				<Divider />
 				
 				{/*add filters here and replace the archives*/}
-				
+
+{/* 				
+                            <span onClick={() => this.sortingHandler('name')}>Title</span>
+                            <input type="text"
+                                   id="filter"
+                                   value={this.state.titleFilter}
+                                   onChange={this.titleFilterHandler.bind(this)}
+                                   className="form-control"/> */}
+                        
 			</Paper>
 			<Typography variant="h6" gutterBottom className={classes.sidebarSection}>
 				Social
